@@ -1,0 +1,31 @@
+/* SignUpSuccessful.css */
+
+.signup-successful-container {
+    text-align: center;
+    color: white; /* Set text color to white */
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* Style for Login button */
+.signup-successful-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.signup-successful-container a:hover {
+    background-color: #ff0f24;
+}
+
+.signup-successful-container a:active {
+    transform: translateY(1px);
+}

@@ -1,0 +1,33 @@
+/* LoginSuccessful.css */
+
+.login-successful-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-successful-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #e50914; /* Red color */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-successful-container a:hover {
+    background-color: #ff0f24; /* Lighter shade of red on hover */
+}
