@@ -41,3 +41,4 @@ const Cards = ({movie}) => {
 }
 
 export default Cards
+//popout
