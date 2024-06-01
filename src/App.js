@@ -9,7 +9,7 @@ import LoginSuccessful from './components/LoginSuccessful/LoginSuccessful';
 import Signup from './components/Signup/Signup'; // Import the Signup component
 import SignUpSuccessful from './components/SignUpSuccessful/SignUpSuccessful'; 
 import LoginError from './components/LoginError/LoginError'; // Import the SignUpSuccessful component
-
+import GenrePage from './genre';
 
 
 
@@ -28,6 +28,7 @@ function App() {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/signup-successful" element={<SignUpSuccessful />} /> 
                     <Route path="/login-error" element={<LoginError />} />
+                    <Route path="/genre" element={< GenrePage />} />
                     <Route path="/*" element={<h1>Error</h1>} />
                 </Routes>
             </Router>

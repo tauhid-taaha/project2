@@ -32,7 +32,10 @@ const Header = () => {
                     <span>Login</span>
                 </Link>
                 <Link to="/signup" style={{ textDecoration: 'none' }}>
-                    <span>Sign Up</span> {/* Add this link */}
+                    <span>Sign Upp</span> {/* Add this link */}
+                </Link>
+                <Link to="/genre" style={{ textDecoration: 'none' }}>
+                    <span>Genre</span> {/* Add this link */}
                 </Link>
             </div>
         </div>
