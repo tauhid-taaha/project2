@@ -1,0 +1,77 @@
+/* RecommendationPage.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  
+  .r{
+    color: #cc8b00;
+  }
+  /* Styling for autosuggest component */
+  .react-autosuggest__container {
+    position: relative;
+  }
+  
+  .react-autosuggest__input {
+    width: 100%;
+    border: 3px solid darkorange;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .react-autosuggest__input:focus {
+    color: #ff8a03;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: #202020;
+    border: 1px solid darkorange;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    z-index: 10;
+  }
+  
+  .react-autosuggest__suggestions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .react-autosuggest__suggestion {
+    padding: 10px;
+    cursor: pointer;
+    color: darkorange;
+  }
+  
+  .react-autosuggest__suggestion:hover {
+    background-color: #cc8b00;
+    color: #fff;
+  }
+.search {
+    color: black;
+    width: auto;
+  padding: 10px 20px;
+  background-color: orange;
+  
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+  
+  
+
